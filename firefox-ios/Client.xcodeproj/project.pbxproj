@@ -3978,6 +3978,9 @@
 		439273372A6E95B60014E253 /* su */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = su; path = su.lproj/Settings.strings; sourceTree = "<group>"; };
 		4392EF5329F69DA30089BF54 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Notification.strings; sourceTree = "<group>"; };
 		4392EF5429F69DA30089BF54 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/ZoomPageBar.strings; sourceTree = "<group>"; };
+		43930D722B67C3410057B1FA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/ContextualHints.strings"; sourceTree = "<group>"; };
+		43930D732B67C3410057B1FA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Credentials.strings"; sourceTree = "<group>"; };
+		43930D742B67C3410057B1FA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/TabToolbar.strings"; sourceTree = "<group>"; };
 		43932284292259B300D758AA /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/SearchHeaderTitle.strings; sourceTree = "<group>"; };
 		439367322B30622400ED2101 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/ContextualHints.strings; sourceTree = "<group>"; };
 		439367332B30622400ED2101 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/CredentialProvider.strings; sourceTree = "<group>"; };
@@ -4525,6 +4528,7 @@
 		43D8C8EC29FFD8BB002C3379 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/ResearchSurface.strings; sourceTree = "<group>"; };
 		43D8C8ED29FFD8BB002C3379 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/SearchHeaderTitle.strings; sourceTree = "<group>"; };
 		43D8C8EE29FFD8BB002C3379 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/Settings.strings; sourceTree = "<group>"; };
+		43D8D30F2B67BF60001BFEBF /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/TabToolbar.strings; sourceTree = "<group>"; };
 		43D9AA50293E0C9300B77CA4 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Alerts.strings; sourceTree = "<group>"; };
 		43D9AA51293E0C9300B77CA4 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/TabsTray.strings; sourceTree = "<group>"; };
 		43DAB1CD2922597600BB49F0 /* cy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cy; path = cy.lproj/SearchHeaderTitle.strings; sourceTree = "<group>"; };
@@ -11446,7 +11450,6 @@
 				3B39EDB91E16E18900EF029F /* CustomSearchEnginesTest.swift */,
 				431C0D1C25C9D76B00395CE4 /* DefaultBrowserOnboardingTests */,
 				D82ED2631FEB3C420059570B /* DefaultSearchPrefsTests.swift */,
-				814A62452B587A3E00608195 /* DefaultThemeManagerTests.swift */,
 				5A70EF17295E2DF400790249 /* DependencyInjection */,
 				8A11C8122731E54800AC7318 /* DictionaryExtensionsTests.swift */,
 				6ADB651A285C03B100947EA4 /* DownloadHelperTests.swift */,
@@ -11483,7 +11486,6 @@
 				8A11C8102731CFD700AC7318 /* ReaderModeStyleTests.swift */,
 				03CCC9171AF05E7300DBF30D /* RelativeDatesTests.swift */,
 				F80D53CD2A09A30F0047ED14 /* RustSyncManagerTests.swift */,
-				253648E02B2111C100D5C2C5 /* SearchViewControllerTests.swift */,
 				8A5D1CA12A30CF2E005AD35C /* Settings */,
 				8C6DA7D02A6FE78F00DE264F /* ShoppingProductTests.swift */,
 				8A04136A2825ABEA00D20B10 /* SponsoredTileTelemetryTests.swift */,
@@ -16328,6 +16330,7 @@
 				439FDCD52B554CC70064EE24 /* ug */,
 				43D3C0132B5E832600EF55BA /* be */,
 				430148D32B5E8854000C4D41 /* th */,
+				43930D722B67C3410057B1FA /* pt-PT */,
 			);
 			name = ContextualHints.strings;
 			sourceTree = "<group>";
@@ -16441,6 +16444,7 @@
 				439FDCD62B554CC70064EE24 /* ug */,
 				438B41BB2B5E865F00BA2E52 /* ko */,
 				430148D42B5E8854000C4D41 /* th */,
+				43930D732B67C3410057B1FA /* pt-PT */,
 			);
 			name = Credentials.strings;
 			sourceTree = "<group>";
@@ -16607,6 +16611,8 @@
 				4395FBDC2B5E85D200AA7AF3 /* is */,
 				438B41BE2B5E865F00BA2E52 /* ko */,
 				430148D52B5E8854000C4D41 /* th */,
+				43D8D30F2B67BF60001BFEBF /* bs */,
+				43930D742B67C3410057B1FA /* pt-PT */,
 			);
 			name = TabToolbar.strings;
 			sourceTree = "<group>";
